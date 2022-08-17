@@ -44,7 +44,7 @@ For Oracle Java 7 and Java 8, configure the heap settings for your application s
 
 ### Configuration of Database Driver Module
 
-1.  Extract the  [com.zip](https://github.com/HCL-TECH-SOFTWARE/volt-mx-docs/raw/master/voltmxlibrary/foundry/zip/user_guide/com.zip)  file.
+1.  Extract the  [com.zip](https://github.com/HCL-TECH-SOFTWARE/Volt-MX-Documentation-Archive/raw/master/voltmxlibrary/foundry/zip/user_guide/com.zip)  file.
 
     The unzipped folder structure will be `com\mysql\main`.
 

@@ -107,7 +107,7 @@ To download Volt MX Iris, follow these steps:
 
 * [Run the Volt MX Iris installer and configure Iris](Installing VoltMX Iris.html#installing)
 * Visit [https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0094403](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0094403) for more important configuration information about trial and paid versions of Iris.
-* [Activate your license](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Foundry/voltmx_licensing_guide/Content/Homepage.html)
+* [Activate your license](https://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/docs/documentation/Foundry/voltmx_licensing_guide/Content/Homepage.html)
 
 <!--
 *   [Prerequisites](#prerequisites)
