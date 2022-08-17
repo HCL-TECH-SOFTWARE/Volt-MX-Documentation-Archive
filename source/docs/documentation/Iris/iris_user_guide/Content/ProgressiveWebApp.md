@@ -231,7 +231,7 @@ Here is an example of the cacheMechanism function in a Service Worker Helper fil
 <img src="Resources/Images/serviceworkerfile_404x247.png">
 
 <li>Click <strong>Done.</strong></li>
-<li>Build and publish the application in release mode to view the changes. For more information on how to build and publish your application in release mode, click <a href="https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_user_guide/Content/WebPublish.html#publishing-a-web-app-in">here</a>.</li>
+<li>Build and publish the application in release mode to view the changes. For more information on how to build and publish your application in release mode, click <a href="https://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/docs/documentation/Iris/iris_user_guide/Content/WebPublish.html#publishing-a-web-app-in">here</a>.</li>
 </ol>
     
 

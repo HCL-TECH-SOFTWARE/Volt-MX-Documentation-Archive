@@ -6,7 +6,7 @@ category: "voltmx_foundry_release_notes"
 
 <head>
     <script type="text/javascript">
-        window.location.replace('https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/VMX_release_notes.html#volt-foundry')
+        window.location.replace('https://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/docs/documentation/VMX_release_notes.html#volt-foundry')
     </script>
 </head>
 

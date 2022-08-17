@@ -32,7 +32,7 @@ All the projects from Visualizer to be re-imported into Volt MX Iris. Existing V
 **Deprecated widgets**
 
 If the projects contain any of the deprecated widgets like HBox/VBox etc, they need to be taken care of manually before importing to Volt MX 9.2 Iris (same behaviour as Quantum 9.2 Visualizer
-[Deprecated Widgets](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_widget_prog_guide/Content/Deprecated.html)
+[Deprecated Widgets](https://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/docs/documentation/Iris/iris_widget_prog_guide/Content/Deprecated.html)
 
 **Revised project configuration files**
 

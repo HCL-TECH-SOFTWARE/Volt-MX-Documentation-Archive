@@ -36,7 +36,7 @@ Starting with Mac OS Monterey version 12.3, Apple has removed Python 2.7 as bein
 To enable customers to download Python version 2.7 and make use of the same for iOS application builds in Iris, a new preference is available in Iris preferences to
 set the path to Python installation. Details of the preference are as follows.
 
-- [Setting the Python Installation Path](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_starter_install_mac/Content/Preferences.html).
+- [Setting the Python Installation Path](https://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/docs/documentation/Iris/iris_starter_install_mac/Content/Preferences.html).
 
 For detailed information about fixes and known issues in this release, please see the [Cumulative fix list for HCL Volt MX](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0094476).
 

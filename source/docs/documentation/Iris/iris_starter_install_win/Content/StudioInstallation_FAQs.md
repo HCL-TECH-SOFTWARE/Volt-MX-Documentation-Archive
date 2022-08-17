@@ -39,7 +39,7 @@ In case there were problems with your installation, install complete page shows 
 </details>
 
 <details close markdown="block"><summary>How to build and publish an app?</summary>
-After installing Volt MX Iris you can refer to the [Getting Started](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/) page to understand how to create an application.
+After installing Volt MX Iris you can refer to the [Getting Started](https://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/docs/documentation/) page to understand how to create an application.
 
 Once you have created your application, you can refer to [Building and Viewing an Application]({{ site.baseurl }}/docs/documentation/Iris/iris_user_guide/Content/BuildingAndViewAnApp.html).
 

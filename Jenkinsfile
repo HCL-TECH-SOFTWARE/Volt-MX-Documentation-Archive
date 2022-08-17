@@ -79,7 +79,7 @@ options{
          //sh "git checkout -b feature/HPHX"
           
           // -- Test for any conflicts in remote, by pusblishing this branch to remote ----
-          //sh "git push volt-mx-docs feature/HPHX"  
+          //sh "git push Volt-MX-Documentation-Archive feature/HPHX"  
           
           // --- check the list of branches and the current checked out branch --
           // sh "git branch"
@@ -87,24 +87,24 @@ options{
           // ---- listing the remotes ----
           //sh "git remote -v"
           
-          //--- checkout to volt-mx-docs master branch, fetch and pull ----
-          //sh "git checkout volt-mx-docs/master"
-          //sh "git fetch volt-mx-docs master:volt-mx-docs/master --update-head-ok"
-          //sh "git pull volt-mx-docs master"
+          //--- checkout to Volt-MX-Documentation-Archive master branch, fetch and pull ----
+          //sh "git checkout Volt-MX-Documentation-Archive/master"
+          //sh "git fetch Volt-MX-Documentation-Archive master:Volt-MX-Documentation-Archive/master --update-head-ok"
+          //sh "git pull Volt-MX-Documentation-Archive master"
           
-          //----- merging changes from branch 'feature/HPHX' to branch 'volt-mx-docs master' ----
+          //----- merging changes from branch 'feature/HPHX' to branch 'Volt-MX-Documentation-Archive master' ----
           //sh "git merge feature/HPHX"
           
-           // ---- pushing the changes to remote volt-mx-docs master ----
-          //sh "git pull volt-mx-docs master"
-          //sh "git push volt-mx-docs master"
+           // ---- pushing the changes to remote Volt-MX-Documentation-Archive master ----
+          //sh "git pull Volt-MX-Documentation-Archive master"
+          //sh "git push Volt-MX-Documentation-Archive master"
           
                     // ----------------------------------------------------//
           
           // -----
           sh "git status"
           sh "git checkout -b feature/HPHX"
-          sh "git push volt-mx-docs feature/HPHX"
+          sh "git push Volt-MX-Documentation-Archive feature/HPHX"
           sh "gh pr create -t 'Merging doc revamp changes' -b 'HPHX-17429: Merging doc revamp changes'"
           sh "gh pr status"
           sh "gh pr merge --merge"
@@ -146,7 +146,7 @@ options{
              println("Commit History 3: ${h3}")             
              println("Commit History 4: ${h4}")             
              println("Commit History 5: ${h5}")
-            emailext attachLog: true, compressLog:true, body:"<p>***********************************************************************************</p><h2>${env.PROJECT_NAME} - Build Status: </h2><h3><u>Present Build Updates:</u></h3><table><tr><th>Build Number: </th><td><code>${env.BUILD_NUMBER}</code></td></tr><tr><th>Build Status: </th><td><code>${currentBuild.currentResult}</code></td></tr><tr><th>Build Duration: </th><td><code>${currentBuild.durationString}</code></td></tr></table><h3><u>Last 5 ChangeSets/History:</u></h3><table><tr><th>Commit History-1:</th><td><code>${h1}</code></td></tr><tr><th>Commit History-2:</th><td><code>${h2}</code></td></tr><tr><th>Commit History-3:</th><td><code>${h3}</code></td></tr><tr><th>Commit History-4:</th><td><code>${h4}</code></td></tr><tr><th>Commit History-5:</th><td><code>${h5}</code></td></tr></table><p>Please check the attached build logs and output to view the results in detail.</p><p>Verify your changes published externally from this base URL: <br>https://opensource.hcltechsw.com/volt-mx-docs/ .</p><p>***********************************************************************************</p>", replyTo: 'vishwanathan.m@hcl.com', subject: "${env.PROJECT_NAME} - Build # ${env.BUILD_NUMBER} - ${currentBuild.currentResult}!", to: 'michael.stewart@hcl.com, david.sayer@hcl.com, amita.g@hcl.com, kumari.h@hcl.com, sanjay-c@hcl.com, vishwanathan.m@hcl.com' 
+            emailext attachLog: true, compressLog:true, body:"<p>***********************************************************************************</p><h2>${env.PROJECT_NAME} - Build Status: </h2><h3><u>Present Build Updates:</u></h3><table><tr><th>Build Number: </th><td><code>${env.BUILD_NUMBER}</code></td></tr><tr><th>Build Status: </th><td><code>${currentBuild.currentResult}</code></td></tr><tr><th>Build Duration: </th><td><code>${currentBuild.durationString}</code></td></tr></table><h3><u>Last 5 ChangeSets/History:</u></h3><table><tr><th>Commit History-1:</th><td><code>${h1}</code></td></tr><tr><th>Commit History-2:</th><td><code>${h2}</code></td></tr><tr><th>Commit History-3:</th><td><code>${h3}</code></td></tr><tr><th>Commit History-4:</th><td><code>${h4}</code></td></tr><tr><th>Commit History-5:</th><td><code>${h5}</code></td></tr></table><p>Please check the attached build logs and output to view the results in detail.</p><p>Verify your changes published externally from this base URL: <br>https://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/ .</p><p>***********************************************************************************</p>", replyTo: 'vishwanathan.m@hcl.com', subject: "${env.PROJECT_NAME} - Build # ${env.BUILD_NUMBER} - ${currentBuild.currentResult}!", to: 'michael.stewart@hcl.com, david.sayer@hcl.com, amita.g@hcl.com, kumari.h@hcl.com, sanjay-c@hcl.com, vishwanathan.m@hcl.com' 
            }
         }
     }
