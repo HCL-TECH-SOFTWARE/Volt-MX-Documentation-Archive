@@ -20,7 +20,7 @@ description: Industry-leading low-code application development platform for deli
 #url: "https://github01.hclpnp.com" # the base hostname & protocol for your site, e.g. http://example.com
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-baseurl: "/volt-mx-docs" # the subpath of your site, e.g. /blog
+baseurl: "/Volt-MX-Documentation-Archive" # the subpath of your site, e.g. /blog
 url: "https://hcl-tech-software.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 searchUrl: "https://opensource.hcltechsw.com" # url for search
 
